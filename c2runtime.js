@@ -22400,5 +22400,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Touch.prototype.cnds.CompareTouchSpeed,
 	cr.plugins_.Touch.prototype.exps.AngleAt,
 	cr.system_object.prototype.cnds.IsBetweenAngles,
+	cr.plugins_.Touch.prototype.cnds.OnDoubleTapGestureObject,
+	cr.plugins_.Browser.prototype.acts.Vibrate,
 	cr.plugins_.Browser.prototype.acts.GoToURL
 ];};
